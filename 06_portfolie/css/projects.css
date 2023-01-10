@@ -1,0 +1,82 @@
+body {
+  background-color: #ebebeb;
+  background-image: url(../billede/image-from-rawpixel-id-6169006-png.png);
+  background-size: cover;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+a {
+  color: rgb(0, 0, 0);
+}
+a:link {
+  color: rgb(0, 0, 0);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #ebebeb;
+  font-size: 20px;
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #555;
+  color: #ebebeb;
+}
+
+.textbag {
+  background-color: #ebebeb9b;
+  padding: 45px;
+  margin: 25px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 140px;
+}
+
+h3 {
+  text-align: center;
+  padding: 35px;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+
+@media (min-width: 800px) {
+  .grid1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .textbag img {
+    width: 500px;
+  }
+}
+
+@media (max-width: 800px) {
+  .textbag img {
+    width: 225px;
+  }
+}
+
+.wireframe {
+  width: 150%;
+}
+
+.styletile {
+  width: 150%;
+}
